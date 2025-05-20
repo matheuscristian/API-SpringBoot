@@ -1,6 +1,6 @@
 package com.example.controle_estoque.model;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -24,7 +24,7 @@ public class SaidaModel {
     private long id;
 
     @Column(nullable = false)
-    private LocalDateTime data;
+    private LocalDate data;
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "id_usuario", referencedColumnName = "id", foreignKey = @ForeignKey(name = "fk_usuario"))

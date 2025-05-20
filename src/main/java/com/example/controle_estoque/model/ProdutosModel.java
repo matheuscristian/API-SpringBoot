@@ -24,6 +24,10 @@ public class ProdutosModel {
     @Column(nullable = false)
     private Integer quantidade;
 
+    public void setQuantidade(Integer quantidade) {
+        this.quantidade = quantidade;
+    }
+
     @Column(nullable = false)
     private String status;
 }
