@@ -1,13 +1,13 @@
-package com.example.cadastro_pessoas;
+package com.example.controle_estoque;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CadastroPessoasApplication {
+public class ControleEstoqueApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CadastroPessoasApplication.class, args);
+		SpringApplication.run(ControleEstoqueApplication.class, args);
 	}
 
 }
